@@ -1,0 +1,241 @@
+# Gestione Finanziaria Personale - App Streamlit
+
+Applicazione one-page professionale per la gestione delle finanze personali con supporto multilingua (Italiano, Inglese, Tedesco).
+
+## Caratteristiche Principali
+
+### 🎯 Funzionalità
+
+- **Dashboard Completa**: Visualizzazione del patrimonio netto, saldo mensile, e metriche chiave
+- **Gestione Budget**: Controllo delle spese per categoria con budget personalizzabili
+- **Obiettivi Finanziari**: Tracciamento degli obiettivi di risparmio con progress bar
+- **Portfolio Investimenti**: Gestione e monitoraggio degli investimenti
+- **Analisi e Report**: Grafici di tendenza e esportazione dati (JSON/CSV)
+- **Multi-lingua**: Supporto completo per IT, EN, DE
+- **Import/Export**: Salva e carica i tuoi dati in qualsiasi momento
+
+### 🏗️ Architettura
+
+L'applicazione è organizzata in 4 zone principali:
+
+1. **ZONA 1 - Header**: Metriche principali e panoramica finanziaria
+2. **ZONA 2 - Dashboard**: 4 tab interattive (Budget, Obiettivi, Investimenti, Analisi)
+3. **ZONA 3 - Quick Input**: Inserimento rapido transazioni
+4. **ZONA 4 - Insights**: Suggerimenti intelligenti e avvisi nella sidebar
+
+## 📋 Requisiti
+
+- Python 3.10 o superiore
+- Streamlit 1.28.0+
+- Pandas 2.0.0+
+- Plotly 5.17.0+
+
+## 🚀 Installazione
+
+1. **Clona o scarica il progetto**
+
+2. **Installa le dipendenze**:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. **Esegui l'applicazione**:
+   ```bash
+   streamlit run app.py
+   ```
+
+L'applicazione si aprirà automaticamente nel browser all'indirizzo `http://localhost:8501`
+
+## 📁 Struttura File
+
+```
+financial_app/
+├── app.py                 # File principale dell'applicazione
+├── data_manager.py        # Modulo gestione dati
+├── requirements.txt       # Dipendenze Python
+├── i18n/
+│   ├── it.json           # Testi italiani (default)
+│   ├── en.json           # Testi inglesi
+│   └── de.json           # Testi tedeschi
+└── README.md             # Questo file
+```
+
+## 💡 Guida all'Uso
+
+### Primo Avvio
+
+1. Inserisci il tuo nome nell'header
+2. Seleziona la lingua preferita
+3. Inizia ad aggiungere transazioni usando il pulsante "Nuova Transazione"
+
+### Gestione Budget
+
+- Vai alla tab "Budget & Spese"
+- Le categorie predefinite hanno già dei budget impostati
+- Le spese vengono tracciate automaticamente quando aggiungi transazioni di tipo "Uscita"
+- Le barre di progresso mostrano: Verde (sotto budget), Giallo (vicino al limite), Rosso (superato)
+
+### Obiettivi Finanziari
+
+1. Vai alla tab "Obiettivi Finanziari"
+2. Clicca su "Aggiungi Nuovo Obiettivo"
+3. Compila: nome, importo obiettivo, importo già risparmiato, data target
+4. Monitora i progressi con le card visive
+
+### Investimenti
+
+1. Vai alla tab "Investimenti & Patrimonio"
+2. Aggiungi i tuoi investimenti specificando: nome, valore, rendimento %, tipo
+3. Visualizza l'allocazione degli asset nel grafico a torta
+4. Monitora il rendimento totale del portfolio
+
+### Analisi e Report
+
+- Visualizza i trend mensili di entrate/uscite
+- Esporta tutti i dati in formato JSON per backup
+- Esporta le transazioni in CSV per analisi esterne
+- Importa dati precedentemente esportati
+
+### Import/Export Dati
+
+**Esportare i dati**:
+- Tab "Analisi e Report" → "Esporta JSON" o "Esporta CSV"
+- Salva il file sul tuo computer
+
+**Importare i dati**:
+- Tab "Analisi e Report" → "Importa da JSON"
+- Carica un file JSON precedentemente esportato
+- I dati verranno ripristinati automaticamente
+
+## 🎨 Design
+
+L'applicazione segue un design professionale e pulito:
+
+- **Layout Responsive**: Si adatta a diverse dimensioni di schermo
+- **Colori Sobri**: Palette professionale senza eccessi
+- **Tipografia Chiara**: Font leggibili e dimensioni appropriate
+- **Grafici Interattivi**: Visualizzazioni dati con Plotly
+- **Nessuna Emoji**: Design minimalista e professionale (tranne indicatori essenziali)
+
+## 🔒 Privacy e Sicurezza
+
+- **Nessun Database Esterno**: Tutti i dati rimangono nel tuo browser
+- **Session-Based**: I dati sono memorizzati nella sessione di Streamlit
+- **Export Locale**: Controllo completo sui tuoi dati finanziari
+- **No Cloud**: Nessun dato viene inviato a server esterni
+
+## 🌍 Lingue Supportate
+
+- 🇮🇹 Italiano (default)
+- 🇬🇧 English
+- 🇩🇪 Deutsch
+
+Cambia lingua in qualsiasi momento usando il selettore nell'header.
+
+## 📊 Formato Dati JSON
+
+I dati esportati seguono questa struttura:
+
+```json
+{
+  "transactions": [
+    {
+      "id": 1,
+      "date": "2024-01-15",
+      "amount": 50.00,
+      "category": "Alimentari",
+      "description": "Spesa settimanale",
+      "type": "expense"
+    }
+  ],
+  "goals": [
+    {
+      "id": 1,
+      "title": "Fondo Emergenza",
+      "target_amount": 5000,
+      "current_amount": 1200,
+      "target_date": "2024-12-31"
+    }
+  ],
+  "investments": [
+    {
+      "id": 1,
+      "name": "ETF World",
+      "value": 10000,
+      "return_pct": 8.5,
+      "type": "Azioni"
+    }
+  ],
+  "categories": {
+    "Alimentari": {"budget": 400, "spent": 250}
+  }
+}
+```
+
+## 🛠️ Personalizzazione
+
+### Aggiungere Nuove Categorie
+
+Modifica il file `data_manager.py`, sezione `initialize_session_state()`:
+
+```python
+st.session_state.categories = {
+    'Alimentari': {'budget': 400, 'spent': 0},
+    'NuovaCategoria': {'budget': 100, 'spent': 0},
+    # ... altre categorie
+}
+```
+
+### Modificare i Colori
+
+Modifica la sezione CSS in `app.py`:
+
+```python
+st.markdown("""
+<style>
+    .header-section {
+        background: linear-gradient(135deg, #TUO_COLORE1 0%, #TUO_COLORE2 100%);
+    }
+</style>
+""", unsafe_allow_html=True)
+```
+
+## 🐛 Troubleshooting
+
+**L'app non si avvia**:
+- Verifica di aver installato tutte le dipendenze: `pip install -r requirements.txt`
+- Controlla la versione di Python: `python --version` (deve essere 3.10+)
+
+**I dati scompaiono**:
+- I dati sono salvati nella sessione del browser
+- Usa la funzione Export per salvare permanentemente i dati
+- Chiudere il browser cancella la sessione
+
+**Problemi con i grafici**:
+- Assicurati che Plotly sia installato correttamente
+- Prova a reinstallare: `pip install --upgrade plotly`
+
+## 📝 Note di Sviluppo
+
+- **No Database**: L'applicazione usa solo `st.session_state` per i dati
+- **Stateless**: Ogni sessione è indipendente
+- **Modulare**: Codice organizzato in funzioni separate per facile manutenzione
+- **Estendibile**: Facile aggiungere nuove funzionalità o modificare esistenti
+
+## 🤝 Contributi
+
+Suggerimenti per miglioramenti:
+- Aggiunta di più tipi di grafici
+- Calcolo automatico del risparmio mensile ottimale
+- Previsioni basate sui dati storici
+- Categorizzazione automatica delle spese
+- Integrazione con conti bancari (richiede backend)
+
+## 📄 Licenza
+
+Questo progetto è fornito "as-is" per uso personale ed educativo.
+
+---
+
+**Versione**: 1.0.0  
+**Ultimo Aggiornamento**: Dicembre 2024
