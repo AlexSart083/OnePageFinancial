@@ -1,0 +1,176 @@
+{
+  "transactions": [
+    {
+      "id": 1,
+      "date": "2024-12-01",
+      "amount": 2500.00,
+      "category": "Stipendio",
+      "description": "Stipendio mensile",
+      "type": "income"
+    },
+    {
+      "id": 2,
+      "date": "2024-12-02",
+      "amount": 85.50,
+      "category": "Alimentari",
+      "description": "Spesa supermercato",
+      "type": "expense"
+    },
+    {
+      "id": 3,
+      "date": "2024-12-03",
+      "amount": 45.00,
+      "category": "Ristoranti",
+      "description": "Cena fuori",
+      "type": "expense"
+    },
+    {
+      "id": 4,
+      "date": "2024-12-04",
+      "amount": 120.00,
+      "category": "Utenze",
+      "description": "Bolletta elettricità",
+      "type": "expense"
+    },
+    {
+      "id": 5,
+      "date": "2024-12-05",
+      "amount": 35.00,
+      "category": "Trasporti",
+      "description": "Rifornimento benzina",
+      "type": "expense"
+    },
+    {
+      "id": 6,
+      "date": "2024-12-06",
+      "amount": 65.00,
+      "category": "Alimentari",
+      "description": "Spesa settimanale",
+      "type": "expense"
+    },
+    {
+      "id": 7,
+      "date": "2024-11-01",
+      "amount": 2500.00,
+      "category": "Stipendio",
+      "description": "Stipendio mensile",
+      "type": "income"
+    },
+    {
+      "id": 8,
+      "date": "2024-11-05",
+      "amount": 250.00,
+      "category": "Alimentari",
+      "description": "Spese mensili supermercato",
+      "type": "expense"
+    },
+    {
+      "id": 9,
+      "date": "2024-11-10",
+      "amount": 180.00,
+      "category": "Shopping",
+      "description": "Abbigliamento invernale",
+      "type": "expense"
+    },
+    {
+      "id": 10,
+      "date": "2024-11-15",
+      "amount": 95.00,
+      "category": "Ristoranti",
+      "description": "Ristorante weekend",
+      "type": "expense"
+    }
+  ],
+  "goals": [
+    {
+      "id": 1,
+      "title": "Fondo Emergenza",
+      "target_amount": 5000.00,
+      "current_amount": 1850.00,
+      "target_date": "2025-06-30",
+      "created_date": "2024-01-15"
+    },
+    {
+      "id": 2,
+      "title": "Vacanza Estiva",
+      "target_amount": 2000.00,
+      "current_amount": 650.00,
+      "target_date": "2025-07-01",
+      "created_date": "2024-03-01"
+    },
+    {
+      "id": 3,
+      "title": "Nuovo Laptop",
+      "target_amount": 1500.00,
+      "current_amount": 1500.00,
+      "target_date": "2024-12-20",
+      "created_date": "2024-06-01"
+    }
+  ],
+  "investments": [
+    {
+      "id": 1,
+      "name": "ETF MSCI World",
+      "value": 8500.00,
+      "return_pct": 12.5,
+      "type": "Azioni"
+    },
+    {
+      "id": 2,
+      "name": "Conto Deposito",
+      "value": 5000.00,
+      "return_pct": 3.5,
+      "type": "Liquidità"
+    },
+    {
+      "id": 3,
+      "name": "BTP Italia",
+      "value": 3000.00,
+      "return_pct": 4.2,
+      "type": "Obbligazioni"
+    },
+    {
+      "id": 4,
+      "name": "Appartamento (quota)",
+      "value": 25000.00,
+      "return_pct": 2.8,
+      "type": "Immobili"
+    }
+  ],
+  "categories": {
+    "Alimentari": {
+      "budget": 400,
+      "spent": 150.50
+    },
+    "Ristoranti": {
+      "budget": 150,
+      "spent": 45.00
+    },
+    "Trasporti": {
+      "budget": 100,
+      "spent": 35.00
+    },
+    "Utenze": {
+      "budget": 200,
+      "spent": 120.00
+    },
+    "Intrattenimento": {
+      "budget": 100,
+      "spent": 0
+    },
+    "Salute": {
+      "budget": 80,
+      "spent": 0
+    },
+    "Shopping": {
+      "budget": 150,
+      "spent": 0
+    },
+    "Altro": {
+      "budget": 50,
+      "spent": 0
+    }
+  },
+  "user_name": "Utente Demo",
+  "export_date": "2024-12-06T10:30:00"
+}
