@@ -1,0 +1,142 @@
+{
+  "app_title": "Persönliche Finanzverwaltung",
+  "language_label": "Sprache",
+  
+  "header": {
+    "net_worth": "Nettovermögen",
+    "monthly_balance": "Monatssaldo",
+    "goals_progress": "Zielfortschritt",
+    "monthly_savings": "Monatliche Ersparnisse",
+    "savings_rate": "Sparquote",
+    "user_name_placeholder": "Dein Name"
+  },
+  
+  "tabs": {
+    "budget": "Budget & Ausgaben",
+    "goals": "Finanzielle Ziele",
+    "investments": "Investitionen & Vermögen",
+    "analysis": "Analyse & Berichte"
+  },
+  
+  "budget_tab": {
+    "title": "Monatliche Budgetverwaltung",
+    "spending_chart": "Ausgabenverteilung nach Kategorie",
+    "category": "Kategorie",
+    "monthly_budget": "Monatsbudget",
+    "spent": "Ausgegeben",
+    "remaining": "Verbleibend",
+    "progress": "Fortschritt",
+    "recent_transactions": "Aktuelle Transaktionen",
+    "date": "Datum",
+    "amount": "Betrag",
+    "description": "Beschreibung",
+    "type": "Typ",
+    "no_transactions": "Keine Transaktionen erfasst",
+    "income": "Einnahmen",
+    "expense": "Ausgabe",
+    "under_budget": "Unter Budget",
+    "over_budget": "Über Budget"
+  },
+  
+  "goals_tab": {
+    "title": "Deine finanziellen Ziele",
+    "add_goal": "Neues Ziel hinzufügen",
+    "goal_name": "Zielname",
+    "target_amount": "Zielbetrag",
+    "current_amount": "Aktueller Betrag",
+    "target_date": "Zieldatum",
+    "create_goal": "Ziel erstellen",
+    "no_goals": "Keine Ziele festgelegt",
+    "progress": "Fortschritt",
+    "target": "Ziel",
+    "saved": "Gespart",
+    "deadline": "Frist"
+  },
+  
+  "investments_tab": {
+    "title": "Anlageportfolio",
+    "add_investment": "Investition hinzufügen",
+    "asset_allocation": "Vermögensaufteilung",
+    "total_value": "Gesamtwert",
+    "total_return": "Gesamtertrag",
+    "investment_name": "Investitionsname",
+    "value": "Wert",
+    "return": "Rendite",
+    "type": "Typ",
+    "create_investment": "Hinzufügen",
+    "no_investments": "Keine Investitionen erfasst",
+    "types": {
+      "stocks": "Aktien",
+      "bonds": "Anleihen",
+      "real_estate": "Immobilien",
+      "cash": "Bargeld",
+      "crypto": "Kryptowährung",
+      "other": "Sonstiges"
+    }
+  },
+  
+  "analysis_tab": {
+    "title": "Analyse & Berichte",
+    "net_worth_trend": "Nettovermögensentwicklung",
+    "monthly_trend": "Monatlicher Einnahmen/Ausgaben-Trend",
+    "export_data": "Daten exportieren",
+    "export_json": "JSON exportieren",
+    "export_csv": "CSV exportieren (Transaktionen)",
+    "import_data": "Daten importieren",
+    "import_json": "Aus JSON importieren",
+    "upload_file": "JSON-Datei hochladen",
+    "import_success": "Daten erfolgreich importiert!",
+    "import_error": "Fehler beim Import",
+    "no_data": "Keine Daten für Analyse verfügbar"
+  },
+  
+  "quick_input": {
+    "add_transaction": "Neue Transaktion",
+    "amount_label": "Betrag",
+    "category_label": "Kategorie",
+    "date_label": "Datum",
+    "description_label": "Beschreibung",
+    "type_label": "Typ",
+    "submit": "Hinzufügen",
+    "success": "Transaktion erfolgreich hinzugefügt!",
+    "amount_required": "Betrag ist erforderlich"
+  },
+  
+  "insights": {
+    "title": "Einblicke & Vorschläge",
+    "alerts": "Warnungen",
+    "suggestions": "Vorschläge",
+    "reminders": "Erinnerungen",
+    "celebrations": "Erfolge",
+    "no_alerts": "Alles unter Kontrolle!",
+    "budget_warning": "Warnung: Budget überschritten für",
+    "budget_near": "Budget wird bald erreicht für",
+    "goal_achieved": "Glückwunsch! Ziel erreicht",
+    "savings_tip": "Sie könnten sparen, indem Sie Ausgaben reduzieren in"
+  },
+  
+  "categories": {
+    "Alimentari": "Lebensmittel",
+    "Ristoranti": "Restaurants",
+    "Trasporti": "Transport",
+    "Utenze": "Versorgung",
+    "Intrattenimento": "Unterhaltung",
+    "Salute": "Gesundheit",
+    "Shopping": "Einkaufen",
+    "Stipendio": "Gehalt",
+    "Investimenti": "Investitionen",
+    "Altro": "Sonstiges"
+  },
+  
+  "common": {
+    "save": "Speichern",
+    "cancel": "Abbrechen",
+    "delete": "Löschen",
+    "edit": "Bearbeiten",
+    "close": "Schließen",
+    "confirm": "Bestätigen",
+    "loading": "Wird geladen...",
+    "error": "Fehler",
+    "success": "Erfolg"
+  }
+}

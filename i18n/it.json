@@ -1,0 +1,142 @@
+{
+  "app_title": "Gestione Finanziaria Personale",
+  "language_label": "Lingua",
+  
+  "header": {
+    "net_worth": "Patrimonio Netto",
+    "monthly_balance": "Saldo Mensile",
+    "goals_progress": "Progressi Obiettivi",
+    "monthly_savings": "Risparmio Mensile",
+    "savings_rate": "Tasso di Risparmio",
+    "user_name_placeholder": "Il tuo nome"
+  },
+  
+  "tabs": {
+    "budget": "Budget & Spese",
+    "goals": "Obiettivi Finanziari",
+    "investments": "Investimenti & Patrimonio",
+    "analysis": "Analisi e Report"
+  },
+  
+  "budget_tab": {
+    "title": "Gestione Budget Mensile",
+    "spending_chart": "Distribuzione Spese per Categoria",
+    "category": "Categoria",
+    "monthly_budget": "Budget Mensile",
+    "spent": "Speso",
+    "remaining": "Rimanente",
+    "progress": "Progresso",
+    "recent_transactions": "Transazioni Recenti",
+    "date": "Data",
+    "amount": "Importo",
+    "description": "Descrizione",
+    "type": "Tipo",
+    "no_transactions": "Nessuna transazione registrata",
+    "income": "Entrata",
+    "expense": "Uscita",
+    "under_budget": "Sotto budget",
+    "over_budget": "Sopra budget"
+  },
+  
+  "goals_tab": {
+    "title": "I Tuoi Obiettivi Finanziari",
+    "add_goal": "Aggiungi Nuovo Obiettivo",
+    "goal_name": "Nome Obiettivo",
+    "target_amount": "Importo Obiettivo",
+    "current_amount": "Importo Attuale",
+    "target_date": "Data Obiettivo",
+    "create_goal": "Crea Obiettivo",
+    "no_goals": "Nessun obiettivo impostato",
+    "progress": "Progresso",
+    "target": "Obiettivo",
+    "saved": "Risparmiato",
+    "deadline": "Scadenza"
+  },
+  
+  "investments_tab": {
+    "title": "Portafoglio Investimenti",
+    "add_investment": "Aggiungi Investimento",
+    "asset_allocation": "Allocazione Asset",
+    "total_value": "Valore Totale",
+    "total_return": "Rendimento Totale",
+    "investment_name": "Nome Investimento",
+    "value": "Valore",
+    "return": "Rendimento",
+    "type": "Tipo",
+    "create_investment": "Aggiungi",
+    "no_investments": "Nessun investimento registrato",
+    "types": {
+      "stocks": "Azioni",
+      "bonds": "Obbligazioni",
+      "real_estate": "Immobili",
+      "cash": "Liquidità",
+      "crypto": "Criptovalute",
+      "other": "Altro"
+    }
+  },
+  
+  "analysis_tab": {
+    "title": "Analisi e Report",
+    "net_worth_trend": "Andamento Patrimonio Netto",
+    "monthly_trend": "Trend Entrate/Uscite Mensili",
+    "export_data": "Esporta Dati",
+    "export_json": "Esporta JSON",
+    "export_csv": "Esporta CSV (Transazioni)",
+    "import_data": "Importa Dati",
+    "import_json": "Importa da JSON",
+    "upload_file": "Carica file JSON",
+    "import_success": "Dati importati con successo!",
+    "import_error": "Errore durante l'importazione",
+    "no_data": "Nessun dato disponibile per l'analisi"
+  },
+  
+  "quick_input": {
+    "add_transaction": "Nuova Transazione",
+    "amount_label": "Importo",
+    "category_label": "Categoria",
+    "date_label": "Data",
+    "description_label": "Descrizione",
+    "type_label": "Tipo",
+    "submit": "Aggiungi",
+    "success": "Transazione aggiunta con successo!",
+    "amount_required": "L'importo è obbligatorio"
+  },
+  
+  "insights": {
+    "title": "Insights e Suggerimenti",
+    "alerts": "Avvisi",
+    "suggestions": "Suggerimenti",
+    "reminders": "Promemoria",
+    "celebrations": "Traguardi",
+    "no_alerts": "Tutto sotto controllo!",
+    "budget_warning": "Attenzione: hai superato il budget per",
+    "budget_near": "Stai per raggiungere il budget per",
+    "goal_achieved": "Congratulazioni! Hai raggiunto l'obiettivo",
+    "savings_tip": "Potresti risparmiare riducendo le spese in"
+  },
+  
+  "categories": {
+    "Alimentari": "Alimentari",
+    "Ristoranti": "Ristoranti",
+    "Trasporti": "Trasporti",
+    "Utenze": "Utenze",
+    "Intrattenimento": "Intrattenimento",
+    "Salute": "Salute",
+    "Shopping": "Shopping",
+    "Stipendio": "Stipendio",
+    "Investimenti": "Investimenti",
+    "Altro": "Altro"
+  },
+  
+  "common": {
+    "save": "Salva",
+    "cancel": "Annulla",
+    "delete": "Elimina",
+    "edit": "Modifica",
+    "close": "Chiudi",
+    "confirm": "Conferma",
+    "loading": "Caricamento...",
+    "error": "Errore",
+    "success": "Successo"
+  }
+}
