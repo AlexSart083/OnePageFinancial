@@ -1,0 +1,142 @@
+{
+  "app_title": "Personal Finance Manager",
+  "language_label": "Language",
+  
+  "header": {
+    "net_worth": "Net Worth",
+    "monthly_balance": "Monthly Balance",
+    "goals_progress": "Goals Progress",
+    "monthly_savings": "Monthly Savings",
+    "savings_rate": "Savings Rate",
+    "user_name_placeholder": "Your name"
+  },
+  
+  "tabs": {
+    "budget": "Budget & Expenses",
+    "goals": "Financial Goals",
+    "investments": "Investments & Assets",
+    "analysis": "Analysis & Reports"
+  },
+  
+  "budget_tab": {
+    "title": "Monthly Budget Management",
+    "spending_chart": "Spending Distribution by Category",
+    "category": "Category",
+    "monthly_budget": "Monthly Budget",
+    "spent": "Spent",
+    "remaining": "Remaining",
+    "progress": "Progress",
+    "recent_transactions": "Recent Transactions",
+    "date": "Date",
+    "amount": "Amount",
+    "description": "Description",
+    "type": "Type",
+    "no_transactions": "No transactions recorded",
+    "income": "Income",
+    "expense": "Expense",
+    "under_budget": "Under budget",
+    "over_budget": "Over budget"
+  },
+  
+  "goals_tab": {
+    "title": "Your Financial Goals",
+    "add_goal": "Add New Goal",
+    "goal_name": "Goal Name",
+    "target_amount": "Target Amount",
+    "current_amount": "Current Amount",
+    "target_date": "Target Date",
+    "create_goal": "Create Goal",
+    "no_goals": "No goals set",
+    "progress": "Progress",
+    "target": "Target",
+    "saved": "Saved",
+    "deadline": "Deadline"
+  },
+  
+  "investments_tab": {
+    "title": "Investment Portfolio",
+    "add_investment": "Add Investment",
+    "asset_allocation": "Asset Allocation",
+    "total_value": "Total Value",
+    "total_return": "Total Return",
+    "investment_name": "Investment Name",
+    "value": "Value",
+    "return": "Return",
+    "type": "Type",
+    "create_investment": "Add",
+    "no_investments": "No investments recorded",
+    "types": {
+      "stocks": "Stocks",
+      "bonds": "Bonds",
+      "real_estate": "Real Estate",
+      "cash": "Cash",
+      "crypto": "Cryptocurrency",
+      "other": "Other"
+    }
+  },
+  
+  "analysis_tab": {
+    "title": "Analysis & Reports",
+    "net_worth_trend": "Net Worth Trend",
+    "monthly_trend": "Monthly Income/Expenses Trend",
+    "export_data": "Export Data",
+    "export_json": "Export JSON",
+    "export_csv": "Export CSV (Transactions)",
+    "import_data": "Import Data",
+    "import_json": "Import from JSON",
+    "upload_file": "Upload JSON file",
+    "import_success": "Data imported successfully!",
+    "import_error": "Error during import",
+    "no_data": "No data available for analysis"
+  },
+  
+  "quick_input": {
+    "add_transaction": "New Transaction",
+    "amount_label": "Amount",
+    "category_label": "Category",
+    "date_label": "Date",
+    "description_label": "Description",
+    "type_label": "Type",
+    "submit": "Add",
+    "success": "Transaction added successfully!",
+    "amount_required": "Amount is required"
+  },
+  
+  "insights": {
+    "title": "Insights & Suggestions",
+    "alerts": "Alerts",
+    "suggestions": "Suggestions",
+    "reminders": "Reminders",
+    "celebrations": "Achievements",
+    "no_alerts": "Everything under control!",
+    "budget_warning": "Warning: you exceeded the budget for",
+    "budget_near": "You're about to reach the budget for",
+    "goal_achieved": "Congratulations! You achieved the goal",
+    "savings_tip": "You could save by reducing expenses in"
+  },
+  
+  "categories": {
+    "Alimentari": "Groceries",
+    "Ristoranti": "Restaurants",
+    "Trasporti": "Transportation",
+    "Utenze": "Utilities",
+    "Intrattenimento": "Entertainment",
+    "Salute": "Health",
+    "Shopping": "Shopping",
+    "Stipendio": "Salary",
+    "Investimenti": "Investments",
+    "Altro": "Other"
+  },
+  
+  "common": {
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "close": "Close",
+    "confirm": "Confirm",
+    "loading": "Loading...",
+    "error": "Error",
+    "success": "Success"
+  }
+}
